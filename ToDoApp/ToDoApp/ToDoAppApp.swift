@@ -12,8 +12,13 @@ struct ToDoAppApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+  //      WindowGroup {
+ //           ContentView()
+  //              .environment(\.managedObjectContext, persistenceController.container.viewContext)
+  //      }
+        
+        WindowGroup{
+            ToDoListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

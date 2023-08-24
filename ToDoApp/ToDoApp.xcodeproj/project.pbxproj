@@ -13,6 +13,8 @@
 		569542372A97CDA2007C7869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569542362A97CDA2007C7869 /* Preview Assets.xcassets */; };
 		569542392A97CDA2007C7869 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569542382A97CDA2007C7869 /* Persistence.swift */; };
 		5695423C2A97CDA2007C7869 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5695423A2A97CDA2007C7869 /* ToDoApp.xcdatamodeld */; };
+		569542432A97D931007C7869 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569542422A97D931007C7869 /* ToDoListView.swift */; };
+		569542452A97D972007C7869 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569542442A97D972007C7869 /* AddToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		569542362A97CDA2007C7869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		569542382A97CDA2007C7869 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5695423B2A97CDA2007C7869 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		569542422A97D931007C7869 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		569542442A97D972007C7869 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				5695422F2A97CDA0007C7869 /* ToDoAppApp.swift */,
 				569542312A97CDA0007C7869 /* ContentView.swift */,
+				569542422A97D931007C7869 /* ToDoListView.swift */,
+				569542442A97D972007C7869 /* AddToDoView.swift */,
 				569542332A97CDA2007C7869 /* Assets.xcassets */,
 				569542382A97CDA2007C7869 /* Persistence.swift */,
 				5695423A2A97CDA2007C7869 /* ToDoApp.xcdatamodeld */,
@@ -145,8 +151,10 @@
 			files = (
 				569542392A97CDA2007C7869 /* Persistence.swift in Sources */,
 				569542322A97CDA0007C7869 /* ContentView.swift in Sources */,
+				569542452A97D972007C7869 /* AddToDoView.swift in Sources */,
 				569542302A97CDA0007C7869 /* ToDoAppApp.swift in Sources */,
 				5695423C2A97CDA2007C7869 /* ToDoApp.xcdatamodeld in Sources */,
+				569542432A97D931007C7869 /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
